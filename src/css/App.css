@@ -1,0 +1,82 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  background-color: var(--main-dark);
+}
+.mainContainer{
+  width: 100%;
+  height: 100%;
+}
+.mainContainerContent{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topButtonContainer{
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: flex-start;
+}
+.topButtonContainer .buttons{
+  visibility: hidden;
+}
+.topButtonContainer:hover .buttons{
+  visibility: visible;
+}
+.buttons{
+  cursor: pointer;
+  border: 0;
+  background: none;
+  height: calc(var(--control-panel-height) - 4px);
+  width: calc(var(--control-panel-height) - 4px);
+  background-size: cover;
+}
+.buttons:hover{
+  border: 2px solid var(--main-light);
+}
+.fullscreenButton{
+  background-image: url('../img/iconos/White-Fullscreen.png');
+}
+.exitFullscreenButton{
+  background-image: url('../img/iconos/White-Exit-Fullscreen.png');
+}
+.backButton{
+  background-image: url('../img/iconos/White-Back-Button.png');
+}
+.addButton{
+  background-image: url('../img/iconos/White-Add.png');
+}
+.deleteButton{
+  background-image: url('../img/iconos/White-Subtract.png');
+}
+.closeButton{
+  background-image: url('../img/iconos/White-X.png');
+}
+.showMediaButton{
+  background-image: url('../img/iconos/White-Eye.png');
+}
+.hideMediaButton{
+  background-image: url('../img/iconos/White-Hide-Eye.png');
+}
+.muteButton{
+  background-image: url('../img/iconos/White-Mute.png');
+}
+.volumeButton{
+  background-image: url('../img/iconos/White-Volume.png');
+}
+.playButton{
+  background-image: url('../img/iconos/White-Play.png');
+}
+.pauseButton{
+  background-image: url('../img/iconos/White-Pause.png');
+}
+.resetButton{
+  background-image: url('../img/iconos/White-Reset-Button.png');
+}
