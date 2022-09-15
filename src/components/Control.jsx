@@ -38,6 +38,10 @@ function Control(props) {
     const deleteFile = file => {
         if (file.url !== defaultFile.url) {
             const filteredFiles = files.filter(f => f.url !== file.url)
+            if (activeFile.url === file.url) {
+                setControlActiveFile(defaultFile)
+                setActiveFile(defaultFile)
+            }
             setFiles(filteredFiles)
         }
     }

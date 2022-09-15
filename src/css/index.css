@@ -17,6 +17,7 @@ code {
   --main-light: #fff;
   --second-dark: rgb(31, 31, 31);
   --second-light: rgb(206, 206, 206);
+  --third-dark: rgb(46, 46, 46);
   --media-thumbnails-height: 120px;
   --control-panel-height: 40px;
 }

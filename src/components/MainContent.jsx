@@ -56,8 +56,8 @@ function MainContent(props) {
     if (props.mode === '') {
         return (
         <div className='switchModeContainer'>
-            <button onClick={() => props.setMode('screen')}>Pantalla</button>
-            <button onClick={() => props.setMode('control')}>Control</button>
+            <button className='buttons screenButton' onClick={() => props.setMode('screen')}/>
+            <button className='buttons controlButton' onClick={() => props.setMode('control')}/>
         </div>
         )
     }

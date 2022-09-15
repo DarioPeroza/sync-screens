@@ -80,3 +80,23 @@
 .resetButton{
   background-image: url('../img/iconos/White-Reset-Button.png');
 }
+.switchModeContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.switchModeContainer .buttons{
+  height: 200px;
+  width: 200px;
+}
+.screenButton{
+  background-image: url('../img/iconos/White-Pantalla-Completa.png');
+}
+.controlButton{
+  background-image: url('../img/iconos/White-Consola.png');
+}
+@media (orientation: portrait) {
+  .switchModeContainer{
+    flex-direction: column;
+  }
+}
